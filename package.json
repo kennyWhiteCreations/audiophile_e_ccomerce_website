@@ -5,14 +5,18 @@
   "description": "![Design preview for the Audiophile e-commerce website coding challenge](./preview.jpg)",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "npx parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "minify": true,
   "author": "",
   "license": "ISC",
+  "homepage":"https://kennyWhiteCreations.github.io/audiophile",
   "devDependencies": {
     "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
