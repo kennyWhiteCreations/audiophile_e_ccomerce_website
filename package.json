@@ -9,7 +9,6 @@
     "start": "npx parcel src/index.html",
     "build": "parcel build src/index.html"
   },
-  "minify": true,
   "author": "",
   "license": "ISC",
   "homepage":"https://kennyWhiteCreations.github.io/audiophile",
